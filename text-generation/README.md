@@ -100,6 +100,3 @@ The script includes error handling that will print an error message if something
 - **Slow model inference.**
   - Larger models take more time to load and generate responses. You can switch to a smaller model or optimize the code for inference speed.
 
-## License
-
-This script is licensed under the MIT License.
