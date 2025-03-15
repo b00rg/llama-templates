@@ -39,7 +39,7 @@ def classify_article(text):
 
 # === TEST CLASSIFICATION ===
 if __name__ == "__main__":
-    text = "" # inserta a sample classification text here
+    text = "" # insert a sample classification text here
     
     label, probs = classify_article(text)
 
