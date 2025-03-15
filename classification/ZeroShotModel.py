@@ -40,15 +40,15 @@ def classify_credibility(model_name, prompt):
 
 # Example Usage:
 model_name = "meta-llama/Llama-3.2-1B"  # Or a more suitable classification model - bigger the model, the more accurate it is
-sample_prompt = """Technology Secretary Peter Kyle described it as the “logical next step” for the AISI — and insisted its work wouldn’t change.""" # Example news paragraph
+sample_prompt = """Lorem ipsum dolor sit amet.""" # Example paragraph
 
-prompt = f"Is the following news paragraph credible? {sample_prompt}" # Clear prompt format
+prompt = f"What would you label the above? {sample_prompt}" # Clear prompt format
 
 predicted_label, label_probs = classify_credibility(model_name, prompt)
 
 if predicted_label:
-    print(f"Predicted Credibility: {predicted_label}")
-    print(f"Credibility Probabilities: {label_probs}")
+    print(f"Predicted Label: {predicted_label}")
+    print(f"Label Probabilities: {label_probs}")
 else:
     print("Classification failed.")
 
