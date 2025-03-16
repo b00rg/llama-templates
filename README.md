@@ -1,5 +1,5 @@
 # Llama Classification and Generation
-This repository provides implementations of Llama models for a variety of natural language processing (NLP) tasks, including:
+This repository provides templates of Llama models for a variety of natural language processing (NLP) tasks, including:
 
 - Binary classification: Both zero-shot and fine-tuned classification tasks.
 - Text generation: Leveraging Llama's local inference capabilities to generate text based on prompts.
